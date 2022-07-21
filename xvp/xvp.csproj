@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="CommandLine">
+        <HintPath>lib\CommandLine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="cliparser\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="cliparser\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="cliparser\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="XML samples" />
+    </ItemGroup>
+
+</Project>
