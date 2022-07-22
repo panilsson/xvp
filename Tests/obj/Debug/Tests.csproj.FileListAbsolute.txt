@@ -1,0 +1,9 @@
+/Users/philip/RiderProjects/xvp/Tests/bin/Debug/Tests.dll
+/Users/philip/RiderProjects/xvp/Tests/bin/Debug/Tests.pdb
+/Users/philip/RiderProjects/xvp/Tests/bin/Debug/nunit.framework.dll
+/Users/philip/RiderProjects/xvp/Tests/bin/Debug/nunit.framework.xml
+/Users/philip/RiderProjects/xvp/Tests/obj/Debug/Tests.csprojAssemblyReference.cache
+/Users/philip/RiderProjects/xvp/Tests/obj/Debug/Tests.csproj.CoreCompileInputs.cache
+/Users/philip/RiderProjects/xvp/Tests/obj/Debug/Tests.csproj.CopyComplete
+/Users/philip/RiderProjects/xvp/Tests/obj/Debug/Tests.dll
+/Users/philip/RiderProjects/xvp/Tests/obj/Debug/Tests.pdb

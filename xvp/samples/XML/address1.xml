@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<USAddress>
+    <name>John Smith</name>
+    <street>0909 Willow Ln</street>
+    <city>Kansas City</city>
+    <state>Missouri</state>
+    <zip>09284-4444</zip>
+    <country>US</country>
+</USAddress>

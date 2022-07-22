@@ -3,15 +3,14 @@ using CommandLine;
 
 namespace xvp.options
 {
-    public class DefaultOptions
+    class Options
     {
-        [Option('v', "verbose", Required = false, HelpText = "Set output to verbose messages.", SetName="default")]
-        public bool Verbose { get; set; }
+        // Input: list of input XML files
+        [Option('i', "input")]
+        public IEnumerable<string> Input { get; set; }
         
-        [Option('h', "help", Required = false, HelpText = "Displays help screen.", SetName="default")]
-        public bool Help { get; set; }
-        
-        [Option("version", Required = false, HelpText = "Displays help screen.", SetName="default")]
-        public bool Version { get; set; }
+        // Against: XSD file to validate against
+        [Option('a', "against")]
+        public IEnumerable<string> Against { get; set; }
     }
 }

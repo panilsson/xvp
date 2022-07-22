@@ -4,7 +4,6 @@
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/xvp.dll
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/ref/xvp.dll
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/xvp.pdb
-/Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.csproj.AssemblyReference.cache
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.AssemblyInfoInputs.cache
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.AssemblyInfo.cs
@@ -16,3 +15,4 @@
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/CommandLine.dll
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/CommandLine.xml
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.csproj.CopyComplete
+/Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.csprojAssemblyReference.cache
