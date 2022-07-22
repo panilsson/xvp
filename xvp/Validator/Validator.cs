@@ -32,11 +32,11 @@ namespace xvp.Validator
             {
                 if (a.Severity == XmlSeverityType.Warning)
                 {
-                    Console.WriteLine("\tWarning: Matching schema not found.  No validation occurred. {0}", a.Message);
+                    Console.WriteLine("\tWarning: {0}", a.Message);
                 }
                 else
                 {
-                    Console.WriteLine("\tValidation error: {0}", a.Message);
+                    Console.WriteLine("\tERROR: {0}", a.Message);
                 }
             };
             
