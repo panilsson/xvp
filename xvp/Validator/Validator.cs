@@ -10,6 +10,8 @@ namespace xvp
     {
         public static bool Validate(string filePath, List<string> xsdInfo)
         {
+            var set = new XmlSchemaSet();
+
             var settings = new XmlReaderSettings
             {
                 DtdProcessing = DtdProcessing.Parse,
@@ -21,10 +23,19 @@ namespace xvp
             {
                 for (var i = 0; i < xsdInfo.Count - 1; i += 2)
                 {
+
+                    using (var xr = XmlReader.Create(
+                               new XmlTextReader(xsdInfo[i + 1]),
+                               new XmlReaderSettings() { DtdProcessing = DtdProcessing.Parse }))
+                    {
+                        set.Add(null, xr);
+                    }
                     settings.Schemas.Add(xsdInfo[i], xsdInfo[i + 1]);
                 }
             }
-            
+            set.Compile();
+
+            settings.Schemas.Add(set);
             settings.ValidationFlags = XmlSchemaValidationFlags.ProcessInlineSchema;
             settings.ValidationFlags = XmlSchemaValidationFlags.ProcessSchemaLocation;
             settings.ValidationFlags = XmlSchemaValidationFlags.ReportValidationWarnings;
