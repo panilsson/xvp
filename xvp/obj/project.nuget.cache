@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EcQ00a2/6oSJbbITKpJ4/FafiqShjPUC2Ub2oRIONtDQS3H+Hi5X87uWPHue66o6MgCyD6Mzf/RewDEn2Qcbvw==",
+  "dgSpecHash": "jZcgiHKpvPP1Z19QJZ9RkrLKjAwM+q/A5GrLeCBw1aN7v0frtWR7B0aLzjIifu7chLakYK17b2k7NsXqbYWkDg==",
   "success": true,
   "projectFilePath": "/Users/philip/RiderProjects/xvp/xvp/xvp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/philip/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512"
+  ],
   "logs": []
 }

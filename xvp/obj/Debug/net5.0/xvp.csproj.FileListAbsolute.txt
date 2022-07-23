@@ -13,6 +13,5 @@
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.pdb
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.genruntimeconfig.cache
 /Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/CommandLine.dll
-/Users/philip/RiderProjects/xvp/xvp/bin/Debug/net5.0/CommandLine.xml
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.csproj.CopyComplete
 /Users/philip/RiderProjects/xvp/xvp/obj/Debug/net5.0/xvp.csproj.AssemblyReference.cache
