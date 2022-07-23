@@ -37,7 +37,7 @@ namespace xvp
                 Console.WriteLine("Processing file {0}", file);
                 if (Validator.Validate(file, options.Against.ToList()))
                 {
-                    Console.WriteLine("Validation of file {0} finished.", file);
+                    Console.WriteLine("\tValidation of file {0} finished.\n", file);
                 }
             }
 

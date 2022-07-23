@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
            xmlns:tns="http://tempuri.org/PurchaseOrderSchema.xsd"
            targetNamespace="http://tempuri.org/PurchaseOrderSchema.xsd"
@@ -13,8 +14,8 @@
 
  <xsd:complexType name="USAddress">
   <xsd:sequence>
-   <xsd:element name="name"   type="xsd:string"/>
    <xsd:element name="street" type="xsd:string"/>
+   <xsd:element name="name"   type="xsd:string"/>
    <xsd:element name="city"   type="xsd:string"/>
    <xsd:element name="state"  type="xsd:string"/>
    <xsd:element name="zip"    type="xsd:integer"/>
