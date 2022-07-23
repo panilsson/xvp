@@ -15,8 +15,7 @@ namespace xvp
             var settings = new XmlReaderSettings
             {
                 DtdProcessing = DtdProcessing.Parse,
-                ValidationType = ValidationType.Schema//,
-                //XmlResolver = null
+                ValidationType = ValidationType.Schema
             };
 
             if (xsdInfo.Any())

@@ -57,7 +57,7 @@
             <xsd:element name='shipTo' type='tns:USAddress'/>
             <xsd:element name='billTo' type='tns:USAddress'/>
             <xsd:element ref='tns:comment' minOccurs='0'/>
-            <xsd:element name='items'  type='tns:Items'/>
+            <xsd:element name='items'  minOccurs='0' type='tns:Items'/>
         </xsd:sequence>
         <xsd:attribute name='orderDate' type='xsd:date'/>
         <xsd:attribute name='confirmDate' type='xsd:date' use='required'/>
