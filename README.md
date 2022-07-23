@@ -2,4 +2,4 @@
 XML validator program
 
 # Usage
-xvp -i [input files] against [xsd path] [targetnamespace]
+xvp -i(--input) [input files] -a(--against) ([xsd path] [targetnamespace])*
